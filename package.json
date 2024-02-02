@@ -1,0 +1,14 @@
+{
+  "name": "extended-matchers",
+  "version": "1.0.0",
+  "author": "Andrii Nastenko",
+  "scripts": {
+    "test": "playwright test -c playwright.config.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.41.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
