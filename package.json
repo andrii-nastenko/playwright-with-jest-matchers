@@ -6,7 +6,10 @@
     "test": "playwright test -c playwright.config.ts"
   },
   "dependencies": {
-    "@playwright/test": "^1.41.1"
+    "@playwright/test": "^1.41.1",
+    "expect": "^29.7.0",
+    "jest-extended": "^4.0.2",
+    "jest-sorted": "^1.0.14"
   },
   "devDependencies": {
     "@types/node": "^20.11.5"
