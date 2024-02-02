@@ -31,5 +31,8 @@
   "ts-node": {
     "files": true
   },
-  "files": []
+  "files": [
+    "node_modules/jest-extended/types/index.d.ts",
+    "src/matchers/extended-matchers.d.ts"
+  ]
 }
