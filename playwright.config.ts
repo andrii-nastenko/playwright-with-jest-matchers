@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import "src/matchers/extended-matchers";
 
 /**
  * Read environment variables from file.
